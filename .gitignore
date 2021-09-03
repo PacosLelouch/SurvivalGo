@@ -1,13 +1,1 @@
 *.txt
-GameProject/*/.vs
-GameProject/*/Build
-GameProject/*/Content/Collections
-GameProject/*/Content/Developers
-GameProject/*/Binaries
-GameProject/*/Plugins/*/Binaries
-GameProject/*/DerivedDataCache
-GameProject/*/Intermediate
-GameProject/*/Plugins/*/Intermediate
-GameProject/*/Saved/Collections
-GameProject/*/Saved/Logs
-GameProject/*/*.sln

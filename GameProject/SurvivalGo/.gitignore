@@ -1,0 +1,15 @@
+*.txt
+.vs
+Build
+Content/Collections
+Content/Developers
+Binaries
+Plugins/*/Binaries
+DerivedDataCache
+Intermediate
+Plugins/*/Intermediate
+Saved/Collections
+Saved/Logs
+Saved/Config
+Saved/AutoScreenshot.png
+*.sln
