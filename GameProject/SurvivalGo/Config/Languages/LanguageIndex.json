@@ -1,0 +1,19 @@
+{
+	"descriptionIndices":
+	{
+		"Chinese":
+		{
+			"segmentFileNames":
+			{
+				"Common": "Chinese_Common"
+			}
+		},
+		"English":
+		{
+			"segmentFileNames":
+			{
+				"Common": "English_Common"
+			}
+		}
+	}
+}

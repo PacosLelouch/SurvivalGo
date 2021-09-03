@@ -1,0 +1,1435 @@
+{
+	"chessDataSettings": [
+		{
+			"playerId": 0,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "Down"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 0,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "Down"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 0,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "Left"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 2,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "Left"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 2,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "Left"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 2,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "Up"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 1,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "Up"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 1,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "Up"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 1,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "Right"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 3,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "Right"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 3,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "Right"
+			},
+			"obstacleType": "Pawn"
+		},
+		{
+			"playerId": 3,
+			"defaultChessLevel": 0,
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "Down"
+			},
+			"obstacleType": "Pawn"
+		}
+	],
+	"blockDataSettings": [
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": 0,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": 0,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": 0,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 0,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 0,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 0,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 0,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": 0,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": 0,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": 0,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": 5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": 4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": 3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": 2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": 1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -5,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -4,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -3,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -2,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": -1,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 1,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 2,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 3,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 4,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": -5,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": [
+				"BreakableWall"
+			]
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": -4,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": -3,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": -2,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		},
+		{
+			"coordinate":
+			{
+				"coordinate":
+				{
+					"x": 5,
+					"y": -1,
+					"z": 0
+				},
+				"direction": "None"
+			},
+			"blockType": "Walkable",
+			"obstacleSettings": []
+		}
+	],
+	"blockLength": 250
+}
