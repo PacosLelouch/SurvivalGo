@@ -136,8 +136,9 @@ bool AGoPlayingGameMode::AddChesses(AGoMapBuilder* MapBuilder, const TArray<FPla
 	}
 	TMap<int32, AGoPlayingPlayerState*> PlayerStates;
 	PlayerStates.Reserve(GoPlayingGS->PlayerArray.Num());
-	for (auto* RawPlayerState : GoPlayingGS->PlayerArray)
+	for (auto RawPlayerStateObjPtr : GoPlayingGS->PlayerArray)
 	{
+		auto* RawPlayerState = RawPlayerStateObjPtr.Get();
 		if (auto* PlayerState = Cast<AGoPlayingPlayerState>(RawPlayerState))
 		{
 			PlayerStates.Add(PlayerState->GetPlayerIndex(), PlayerState);

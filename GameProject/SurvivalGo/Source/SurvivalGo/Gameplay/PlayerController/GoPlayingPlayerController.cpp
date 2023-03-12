@@ -126,19 +126,19 @@ void AGoPlayingPlayerController::TryToMoveToNextPhase_Implementation()
 bool AGoPlayingPlayerController::TraceObstacle(AActor*& TargetObstacle, bool& bOwnChess, const FHitResult& InHitResultIfTraced)
 {
 	FHitResult HitRes = InHitResultIfTraced;
-	if (!HitRes.Actor.IsValid() && !TraceSingleGetHitResult(HitRes))
+	if (!HitRes.GetActor() && !TraceSingleGetHitResult(HitRes))
 	{
 		return false;
 	}
-	if (!HitRes.Actor.IsValid())
+	if (!HitRes.GetActor())
 	{
 		return false;
 	}
-	if (!HitRes.Actor.Get()->Implements<UMapObstacleInterface>())
+	if (!HitRes.GetActor()->Implements<UMapObstacleInterface>())
 	{
 		return false;
 	}
-	TargetObstacle = HitRes.Actor.Get();
+	TargetObstacle = HitRes.GetActor();
 	bOwnChess = false;
 	if (auto* Chess = Cast<AGoChessPawn>(TargetObstacle))
 	{
@@ -154,15 +154,15 @@ bool AGoPlayingPlayerController::TraceObstacle(AActor*& TargetObstacle, bool& bO
 bool AGoPlayingPlayerController::TraceBlock(UMapBlock*& TargetBlock, const FHitResult& InHitResultIfTraced)
 {
 	FHitResult HitRes = InHitResultIfTraced;
-	if (!HitRes.Actor.IsValid() && !TraceSingleGetHitResult(HitRes))
+	if (!HitRes.GetActor() && !TraceSingleGetHitResult(HitRes))
 	{
 		return false;
 	}
-	if (!HitRes.Actor.IsValid() || !HitRes.Component.IsValid())
+	if (!HitRes.GetActor() || !HitRes.Component.IsValid())
 	{
 		return false;
 	}
-	auto* MapBuilder = Cast<AGoMapBuilder>(HitRes.Actor.Get());
+	auto* MapBuilder = Cast<AGoMapBuilder>(HitRes.GetActor());
 	if (!MapBuilder || !HitRes.Component.Get()->IsA<UInstancedStaticMeshComponent>())
 	{
 		return false;

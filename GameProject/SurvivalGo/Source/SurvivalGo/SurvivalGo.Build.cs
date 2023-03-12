@@ -24,7 +24,9 @@ public class SurvivalGo : ModuleRules
 			"InputCore",
 			"Json",
 			"JsonUtilities",
-		});
+            "HeadMountedDisplay",
+            "EnhancedInput",
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] 
 		{  

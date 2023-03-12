@@ -3,7 +3,7 @@
 
 #include "ChessMovementComponent.h"
 #include "ChessManipulatorLibrary.h"
-#include "Actor.h"
+#include "GameFramework/Actor.h"
 #include "TimerManager.h"
 
 void ULatentInfoObject::DummyActionInfoCallback()

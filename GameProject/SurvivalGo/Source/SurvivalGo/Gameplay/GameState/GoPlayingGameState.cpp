@@ -68,8 +68,9 @@ AGoMapBuilder* AGoPlayingGameState::GetMapBuilder()
 
 AGoPlayingPlayerState* AGoPlayingGameState::GetPlayerState(int32 PlayerIndex)
 {
-	for (auto* RawPlayerState : PlayerArray)
+	for (auto RawPlayerStateObjPtr : PlayerArray)
 	{
+		auto* RawPlayerState = RawPlayerStateObjPtr.Get();
 		if (auto* PlayerState = Cast<AGoPlayingPlayerState>(RawPlayerState))
 		{
 			if (PlayerState->GetPlayerIndex(true) == PlayerIndex)
